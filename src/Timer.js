@@ -5,8 +5,8 @@ import { useState, useEffect } from 'react'
 
 export default function Timer() {
 
-  const [initialWorkMinutes, setInitialWorkMinutes] = useState(1);
-  const [initialBreakMinutes, setInitialBreakMinutes] = useState(1);
+  const [initialWorkMinutes, setInitialWorkMinutes] = useState(25);
+  const [initialBreakMinutes, setInitialBreakMinutes] = useState(5);
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(initialWorkMinutes);
   const [displayMessage, setDisplayMessage] = useState(true);

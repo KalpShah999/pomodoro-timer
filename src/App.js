@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <Switch>
             <Route exact path="/">
-              <HomePage />
+              <Timer />
             </Route>
             <Route path="/timer">
               <Timer />
